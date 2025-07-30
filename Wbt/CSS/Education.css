@@ -1,0 +1,125 @@
+body {
+    background-color: #effef7;
+    color: #333;
+}
+ 
+header ul {
+    list-style: none;
+    text-align: center;
+}
+ 
+header li {
+    display: inline;
+    margin: 40px;
+}
+ 
+header a {
+    text-decoration: none;
+    color: #00754a;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+h2{
+    color: #aa4139;
+    text-align: center;
+    border: 3px solid #063313;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    background-color: #effef7;
+    border: 1px solid #00bc50;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1000px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.profile-container:hover {
+    transform: scale(1.02);
+    background-color: #effef7;
+}
+
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #00bc50;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00bc50;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info p {
+    background-color: #eef4f8;
+    padding: 8px 12px;
+    margin: 10px 0;
+    border-left: 4px solid #00bc50 ;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.footer h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #b34700;
+}
+
+.footer p.copyright {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+
+.bottomnav {
+    display: flex;
+    font-size: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomnav a {
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomnav a img {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #effef7;
+}
+
+.bottomnav a img:hover {
+    box-shadow: 0 0 8px #effef7;
+}
+
