@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="/Wbt/CSS/contactme.css">
+</head>
+<body>
+<header>
+    <ul class="navbar">
+        <li><a href="/Wbt/index.html">Home</a></li>
+        <li><a href="/Wbt/HTML/education.html">Education</a></li>
+        <li><a href="/Wbt/HTML/experience.html">Experience</a></li>
+        <li><a href="/Wbt/HTML/project.html">Projects</a></li>
+        <li><a href="/Wbt/HTML/contactme.html">Contact</a></li>
+        <li class="brand"><a href="/Wbt/index.html">Far<span class="highlight">Seen</span></a></li>
+    </ul>
+</header>
+
+<section>
+    <h2>Contact Me</h2>
+    <form method="get" class="contact-form">
+
+        <div class="form-group">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="Firstname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="Lastname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Service:</label>
+            <div class="form-options">
+                <input type="radio" id="service-web" name="Service" value="Web Developer" required>
+                <label for="service-web">Web Developer</label><br>
+
+                <input type="radio" id="service-datascientist" name="Service" value="Data Scientist">
+                <label for="service-datascientist">Data Scientist</label><br>
+
+                <input type="radio" id="service-frontend" name="Service" value="Frontend Developer">
+                <label for="service-frontend">Frontend Developer</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Project:</label>
+            <div class="form-options">
+            <input type="checkbox" id="project-fullstack" name="Project" value="Full Stack Web Development" required>
+                <label for="project-fullstack">Full Stack Web Development</label><br>
+
+                <input type="checkbox" id="project-nlp" name="Project" value="NLP">
+                <label for="project-nlp">NLP</label><br>
+
+                <input type="checkbox" id="project-datascience" name="Project" value="Data Science">
+                <label for="project-datascience">Data Science</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="consulting">Consulting Date:</label>
+            <input type="date" id="consulting" name="consulting" required>
+        </div>
+
+        <div class="form-buttons">
+            <input type="submit" value="Register">
+            <input type="reset" value="Refresh">
+        </div>
+
+    </form>
+</section>
+
+<div class="footer">
+    <h3>Find Me:</h3>
+</div>
+
+<div class="bottomnav">
+        <a href="https://www.facebook.com/farseen.sattique?mibextid=ZbWKwL" target="_blank">
+        <img src="/Wbt/Image/Facebook Logo.png" alt="Facebook Profile" width="30">
+        </a>
+        <a href="https://github.com/Farseensattique" target="_blank">
+        <img src="/Wbt/Image/Github Logo.png" alt="Github Profile" width="30">
+        </a>
+    </div>
+
+    <div class="footer">
+        <p class="copyright">
+            &copy; 2025 MD. Farseen Islam Sattique. All rights reserved.
+        </p>        
+    </div>
+
+<script src="/Wbt/DATA/contactme.js"></script>
+</body>
+</html>
